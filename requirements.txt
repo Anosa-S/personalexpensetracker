@@ -1,0 +1,26 @@
+1. Create UI using tkinter
+    - Labels
+        - Date and Time, Categories, Amounts
+    - Entries
+        - Date and Time, Categories(string), Amount(float)
+    - Buttons
+        - Add Expense
+        - Expense History
+        - Remove Entries
+        - Add Budget
+        - Reset
+        - Graph History
+        - Save and load
+2. Create Constants (Global variables)
+    - colours?
+    - any Labels
+3. Create the function for each button
+    - Add expense: Save the entry into a list/dictionary to be used for later
+    - Expense History: uses the entries from 'Add Expenses', Date and Time, and 
+      Categories to plot a graph and display the history of expenses
+    - Remove entry: Removes selected entry
+    - add budget: saves users input into a list/dictionary to be used later
+    - save: saves current entries into csv file
+    - Load: Loads a csv file
+4. Add budget alerts: set thresholds for budget alerts
+
